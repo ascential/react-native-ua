@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ReactNativeUAPackage implements ReactPackage {
 
-    @Override
+    // RN0.47 needs this gone... @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Arrays.asList();
     }
